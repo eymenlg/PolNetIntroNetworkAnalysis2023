@@ -133,7 +133,7 @@ E(net_igraph2)$color <- ifelse(E(net_igraph2)$Weight==1, "darkred", "navy")
 
 windows()
 plot(net_igraph2,
-     edge.width=1.5*E(net_igraph)$Weight,
+     edge.width=1.5*E(net_igraph2)$Weight,
      edge.color=E(net_igraph2)$color,
      vertex.size=8, 
      vertex.frame.color="white", 
